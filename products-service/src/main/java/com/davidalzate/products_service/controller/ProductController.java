@@ -1,4 +1,4 @@
-package com.davidalzate.inventory_service.controller;
+package com.davidalzate.products_service.controller;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.davidalzate.inventory_service.model.dtos.ProductRequest;
-import com.davidalzate.inventory_service.model.dtos.ProductoResponse;
-import com.davidalzate.inventory_service.services.ProductService;
+import com.davidalzate.products_service.model.dtos.ProductRequest;
+import com.davidalzate.products_service.model.dtos.ProductoResponse;
+import com.davidalzate.products_service.services.ProductService;
 
 import lombok.RequiredArgsConstructor;
 

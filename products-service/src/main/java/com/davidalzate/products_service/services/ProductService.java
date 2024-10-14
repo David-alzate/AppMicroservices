@@ -1,13 +1,13 @@
-package com.davidalzate.inventory_service.services;
+package com.davidalzate.products_service.services;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.davidalzate.inventory_service.model.dtos.ProductRequest;
-import com.davidalzate.inventory_service.model.dtos.ProductoResponse;
-import com.davidalzate.inventory_service.model.entities.Product;
-import com.davidalzate.inventory_service.repository.ProductRepository;
+import com.davidalzate.products_service.model.dtos.ProductRequest;
+import com.davidalzate.products_service.model.dtos.ProductoResponse;
+import com.davidalzate.products_service.model.entities.Product;
+import com.davidalzate.products_service.repository.ProductRepository;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

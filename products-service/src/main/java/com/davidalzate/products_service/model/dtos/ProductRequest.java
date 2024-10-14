@@ -1,4 +1,4 @@
-package com.davidalzate.inventory_service.model.dtos;
+package com.davidalzate.products_service.model.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -8,10 +8,9 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
-public class ProductoResponse {
+@Builder	
+public class ProductRequest {
 	
-	private Long id;
 	private String sku;
 	private String name;
 	private String description;
