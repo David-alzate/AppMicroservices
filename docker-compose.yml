@@ -1,0 +1,14 @@
+version: '3'
+services:
+  db-inventory:
+    container_name: db-inventory
+    image: postgres:15.2
+    restart: unless-stopped
+    environment:
+      - POSTGRES_DB=ms_inventory
+      - POSTGRES_USER=david
+      - POSTGRES_PASSWORD=000
+    ports:
+      - "5431:5432"
+    expose:
+      - "5432"
